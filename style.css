@@ -1,0 +1,55 @@
+/*
+1. all h1 will be purple
+*/
+h1{
+    color: purple;
+}
+
+/*
+2. h1 with id header1 will be green
+*/
+#header1{
+    color: green;
+}
+
+/*
+3. p will be blue
+*/
+p{
+    color: blue;
+}
+
+/*
+4. p with class paragraph will be red
+*/
+.navigation{
+    color: red;
+    background-color: yellow;
+}
+
+/*
+5. p with class introduction will be magenta
+*/
+p.introduction{
+    color: magenta;
+    margin: 30px;
+}
+
+/*
+6. p with class introduction and id intro1 will be orange
+*/
+#blog h1 {
+    color: coral;
+}
+
+
+/*
+7. p with class introduction and id intro2 will be pink
+*/
+#blog div h1 {
+    color: fuchsia;
+}
+
+#blog > h1 {
+    color: aquamarine;
+  }
