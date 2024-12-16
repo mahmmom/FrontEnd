@@ -16,6 +16,10 @@ h1{
 3. p will be blue
 */
 p{
+    text-align: left ;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style:double;
     color: blue;
 }
 
@@ -32,7 +36,7 @@ p{
 */
 p.introduction{
     color: magenta;
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 /*
@@ -46,10 +50,43 @@ p.introduction{
 /*
 7. p with class introduction and id intro2 will be pink
 */
-#blog div h1 {
+#blog  {
+    text-align: center ;
+    background-color: brown;
+    border: 5px solid black;
+    width: fit-content;
+    border-color: black;
     color: fuchsia;
 }
 
+/*
+8. p with class introduction and id intro3 will be aquamarine
+*/
 #blog > h1 {
     color: aquamarine;
-  }
+}
+
+/*
+9. p with class introduction and id intro4 will be red
+*/
+a:hover{
+    color: red;
+}
+
+.parent {
+    border: 4px solid red;
+}
+
+.child {
+    width: 50%;
+    padding: 20px;
+    border: 4px solid green;
+    margin: auto;
+}
+
+/* box model - padding, margin, and content */
+#p_diddy {
+    border: 2px solid black;
+    /* padding: 30px; */
+    margin: 30px;
+}

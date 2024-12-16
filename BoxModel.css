@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    width: 300px;               /* Width of the content area */
+    padding: 20px;             /* Space inside the box */
+    border: 5px solid black;   /* Border around the box */
+    margin: 30px;              /* Space outside the box */
+    background-color: lightgray; /* Background color */
+    box-sizing: border-box;    /* Include padding and border in the element's total width and height */
+    text-align: center;        /* Center align text */
+}

@@ -1,0 +1,31 @@
+html {
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    background-image: url(./img/bg3.jpg);
+    background-size: cover; /* Make background image cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.box1 {
+    background-color: salmon;
+    padding: 10px;
+    border: 20px solid black;
+    margin: 100px;
+}
+
+.box2 {
+    background-color: rgb(0, 254, 59);
+    padding: 10px;
+    border: 20px solid rgb(255, 0, 179);
+    margin: 100px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#pic {
+    float: right;
+    border: 10px solid black;
+    margin: 100px;
+}
